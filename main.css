@@ -146,3 +146,10 @@ img {
   display: flex;
   justify-content: center;
 }
+
+.öffnungszeiten {
+  justify-content: right;
+  text-align: left;
+  font-size: auto;
+  margin-left: 20px;
+}
