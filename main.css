@@ -5,7 +5,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: auto\9; 
 }
 
   .sidenav {
@@ -22,33 +22,20 @@ img {
   }
   .Modelle {
     display: flex;
+    justify-content: center;
+    text-align: left;
   }
 
-  .Kombi {
-    max-width: 500px;
-    height: auto;
-    margin-left: auto;
+  .Modelle > div {
+    margin-left: 20px;
     margin-right: auto; 
   }
-
-  .Limosine {
-    max-width: 500px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto; 
-  }
-
-  .Elektro {
-    max-width: 500px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto; 
-  }
-
+  
   .überschrift {
     display: flex;
     background-color: #ffffff;
     justify-content: center;
+    text-align: left;
   }
   
   .überschrift > div {
@@ -60,7 +47,7 @@ img {
 
   .Sidbarbutton {
     font-size: 30px;
-    margin-right: 20;
+    margin-right: 10px;
     margin-left: auto;
   }
   
@@ -115,4 +102,47 @@ img {
     opacity: 1;
   }
 
-  
+.eingabe {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: auto; 
+}
+
+.eingabe > div {
+  margin-left: 20px;
+  margin-right: auto; 
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: auto; 
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  font-size: auto;
+}
+
+.kleineüberschrift {
+  display: flex;
+  margin-right: auto; 
+  margin-left: 5%;
+  text-align: left;
+}
+
+.kleineüberschrift > div {
+  margin-left: 20px;
+  margin-right: auto; 
+}
+
+.kleineüberschrift2 {
+  display: flex;
+  justify-content: center;
+}
