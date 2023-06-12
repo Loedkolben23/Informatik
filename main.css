@@ -1,7 +1,50 @@
 body {
     font-family: "Lato", sans-serif;
   }
-  
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .Modelle {
+    display: flex;
+  }
+
+  .Kombi {
+    max-width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  .Limosine {
+    max-width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  .Elektro {
+    max-width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
   .überschrift {
     display: flex;
     background-color: #ffffff;
@@ -10,7 +53,7 @@ body {
   
   .überschrift > div {
     background-color: #ffffff;
-    font-size: 40px;
+    font-size: auto;
     margin-left: auto;
     margin-right: 20;
   }
@@ -54,3 +97,22 @@ body {
     font-size: 36px;
     margin-left: 50px;
   }
+
+.picture {
+  height: auto;
+  margin-left: 20%;
+  margin-right: auto;
+  }
+
+  .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  

@@ -6,6 +6,8 @@ function closeNav() {
     document.getElementById("Sidbar").style.width = "0";
   }
 
-function showFoto(){
-  document.getElementById("foto").style.width = "100%"
-}
+for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;}
+  
